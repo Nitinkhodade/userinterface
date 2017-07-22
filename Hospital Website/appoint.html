@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="">
+ <meta name="author" content="">
+<title>Appointment</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<style>
+.dropbtn {
+    color: black;
+    padding: 12px;
+    box-shadow: 5px 5px 5px #A0E0E4;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1; box-shadow: 0 12px 16px 0 #ADD8E6 ,0 17px 50px 0 #ADD8E6;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.3);    
+-moz-transform: scale(1.3);  
+-webkit-transform: scale(1.3);  
+-o-transform: scale(1.3);  
+transform: scale(1.3);    
+position:relative;      
+z-index:100;  
+}
+
+.c1 
+{
+padding-left: 200px;
+padding-bottom: 30px;
+
+}
+
+</style>
+</head>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><font face=""Palatino Linotype" size="6" color="black"><B><I>WELCOME</I></B></font></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+	                  <li>
+                        <a class="dropbtn"class="dropbtn"class="dropbtn" href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#">Patient<b class="caret"></b></a>
+                        <ul class="dropdown-content" >
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="appoint.html">Make Appointment</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#">Reception<b class="caret"></b></a>
+                        <ul class="dropdown-content" >
+                        <li><a href="registration.html">Login</a></li>
+                        <li><a href="login.html">Bed Allotment</a></li>
+                        <li><a href="appoint.html">Patient List</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#">Specialities<b class="caret"></b></a>
+                        <ul class="dropdown-content" >
+                        <li><a href="registration.html">General</a></li>
+                        <li><a href="login.html">Brain</a></li>
+                        <li><a href="appoint.html">Heart</a></li>
+                        <li><a href="appoint.html">Kidney</a></li>
+                        <li><a href="appoint.html">Women & Child</a></li>
+                        </ul>
+                    </li>
+	                 <li class="dropdown">
+		                  <a href="#" class="dropbtn" >Service <b class="caret"></b></a>
+		                  <ul class="dropdown-content" >
+	                    <li><a href="blood.html">Blood Bank</a></li>
+                      <li><a href="#">Health care</a></li>
+                      <li><a href="#">Emergency</a></li>
+	                    <li><a href="#">Accident</a></li>
+                      </ul>
+	                 </li>
+                    <li>
+                        <a class="dropbtn" href="#contact">About Us</a>
+                    </li>
+  <li>
+                        <a class="dropbtn" href="#contact">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container">
+	<div class="row">
+		<h1>*</h1>
+	</div>
+   </div>
+
+
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-5">
+			<div class="carousel-inner">
+         		<div class="item active">
+       			<img src="make.jpg" alt="Los Angeles" style="width:100%; height:500px ">
+		   		</div>
+			</div>
+     	</div>
+	
+	 	<div class="col-md-7">
+        	<form class="form-horizontal" id="registration1" method='post' action='#'>
+			<fieldset>
+				<font style="font-size:17px" color="#000000" face="Times New Roman">
+					<legend>Make Your Appointment here</legend>
+
+				<div class="form-group">
+  					<label class="col-md-4 control-label">Name</label>  
+  						<div class="col-md-4 inputGroupContainer">
+  							<div class="input-group">
+  							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  							<input  name="first_name" placeholder="Full Name" class="form-control"  type="text"  style="width:250px">
+   							 </div>
+  						</div>
+				</div>
+
+				<div class="form-group">
+  					<label class="col-md-4 control-label">DOB</label>  
+  						<div class="col-md-4 inputGroupContainer">
+  							<div class="input-group">
+  							<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+  							<input type="date" name="first_name" placeholder="DD/MM/YYYY" class="form-control"  type="text"  style="width:250px">
+   							 </div>
+  						</div>
+				</div>
+			
+			<div class="form-group">
+                        <label class="col-md-4 control-label">Sex</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="female" />Female
+                                </label>
+                         		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                <label>
+                                    <input type="radio" name="hosting" value="male" />Male
+                                </label>
+                            </div>
+                        </div>
+            </div>
+
+			
+			<div class="form-group">
+  					<label class="col-md-4 control-label">Mobile No:</label>  
+  						<div class="col-md-4 inputGroupContainer">
+  							<div class="input-group">
+  							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  							<input  name="number" placeholder="Mobile No" class="form-control"  type="text"  style="width:250px">
+   							 </div>
+  						</div>
+				</div>
+
+			<div class="form-group"> 
+  <label class="col-md-4 control-label">Services</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" style="width:250px">
+      <option value=" " style="width:250px">Please select your Services</option>
+      <option>Blood Bank</option>
+      <option>Health care</option>
+      <option >Emergency</option>
+      <option >Accident</option>
+
+    </select>
+  </div>
+</div>
+</div>
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Location</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" style="width:250px">
+      <option value=" " style="width:250px">Please select your Location</option>
+      <option>Andhra Pradesh</option>
+      <option>Assam</option>
+      <option >Bihar</option>
+      <option >Goa</option>
+      <option >Gujarata</option>
+       <option >Haryana</option>
+        <option >Himachal Pradesh</option>
+         <option >Maharashtra</option>
+          <option >Odisha</option>
+           <option >Punjab</option>
+    </select>
+  </div>
+</div>
+</div>
+<div class="form-group">
+  					<label class="col-md-4 control-label">Requested Date</label>  
+  						<div class="col-md-4 inputGroupContainer">
+  							<div class="input-group">
+  							<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+  							<input type="date" name="first_name" placeholder="DD/MM/YYYY" class="form-control"  type="text"  style="width:250px">
+   							 </div>
+  						</div>
+				</div>
+				<div class="form-group">
+  					<label class="col-md-4 control-label">Specialization:</label>  
+  						<div class="col-md-4 inputGroupContainer">
+  							<div class="input-group">
+  							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  							<input  name="Special" placeholder="Enter Spacialization" class="form-control"  type="text"  style="width:250px">
+   							 </div>
+  						</div>
+				</div>
+
+<br>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" style="width:150px; background-color: #7F8FA3">Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+		</fieldset></center>
+		<br>
+
+	</form> </div>
+	</div>	
+    </div>
+
+</body>
+</html>
